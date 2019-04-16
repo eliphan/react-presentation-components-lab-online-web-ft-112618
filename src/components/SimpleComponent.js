@@ -10,11 +10,11 @@ class SimpleComponent extends Component {
   }
 
   render()
-  return (
-    <div>
-      {this.state.mood}
-    </div>
-    )
+    return (
+      <div>
+        {this.state.mood}
+      </div>
+      )
 }
 
 export default SimpleComponent
