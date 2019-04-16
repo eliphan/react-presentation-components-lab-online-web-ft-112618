@@ -10,8 +10,9 @@ class SimpleComponent extends React.Component {
   }
   
   handleClick = event => {
+    const newMood = this.state.mood === 'happy' ? 'sad' : 'happy';
     this.setState({
-      mood: "sad"
+      mood: newMood
     })
   }
     
