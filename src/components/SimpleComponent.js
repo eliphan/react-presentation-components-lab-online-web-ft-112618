@@ -2,7 +2,7 @@
 import React from 'react'
 
 class SimpleComponent extends Component {
-  constructor(){
+  constructor() {
     super()
       this.state = {
       mood: "happy"
